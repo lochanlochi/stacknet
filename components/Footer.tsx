@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-import { socials } from "@/lib/data";
+import { socials, founder } from "@/lib/data";
 
 export default function Footer() {
   return (
@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
 
         <span className="footer-copy mono text-muted">
-          © 2026 Stacknet.dev
+          © 2026 Stacknet.dev · Founded by {founder}
         </span>
 
         <nav className="footer-links" aria-label="Footer">

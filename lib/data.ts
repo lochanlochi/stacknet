@@ -228,6 +228,8 @@ export const faqs: Faq[] = [
   },
 ];
 
+export const founder = "Lochan SR";
+
 export const socials = [
   { label: "GitHub", href: "https://github.com/lochanlochi/stacknet" },
   { label: "LinkedIn", href: "#" },

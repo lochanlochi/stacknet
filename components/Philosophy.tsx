@@ -1,6 +1,6 @@
 import Reveal from "./Reveal";
 import SectionHeading from "./SectionHeading";
-import { principles } from "@/lib/data";
+import { principles, founder } from "@/lib/data";
 
 export default function Philosophy() {
   return (
@@ -36,6 +36,10 @@ export default function Philosophy() {
             </Reveal>
           ))}
         </div>
+
+        <p className="philosophy-founder text-secondary">
+          Founded by <span className="serif accent">{founder}</span>.
+        </p>
       </div>
     </section>
   );

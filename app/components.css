@@ -791,6 +791,10 @@
   margin-top: 0.7rem;
   font-size: 1rem;
 }
+.philosophy-founder {
+  margin-top: clamp(1.5rem, 3vw, 2.5rem);
+  font-size: 1.05rem;
+}
 
 /* ---------- TESTIMONIALS ---------- */
 .testimonials-head {
