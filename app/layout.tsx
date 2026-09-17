@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Manrope, DM_Mono, Instrument_Serif } from "next/font/google";
+import { founder } from "@/lib/data";
 import "./globals.css";
 import "./components.css";
 
@@ -71,6 +72,13 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
+const founderEntity = {
+  "@type": "Person",
+  name: founder,
+  jobTitle: "Founder",
+  worksFor: { "@type": "Organization", name: "Stacknet.dev", url: SITE_URL },
+};
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -79,6 +87,9 @@ const jsonLd = {
   description:
     "Stacknet.dev builds fast, elegant and scalable websites, web applications and digital products.",
   email: "hello@stacknet.dev",
+  founder: founderEntity,
+  founders: [founderEntity],
+  employee: [founderEntity],
   sameAs: ["https://github.com/lochanlochi/stacknet"],
 };
 
