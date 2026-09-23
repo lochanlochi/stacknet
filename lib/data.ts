@@ -1,6 +1,7 @@
 // Root-relative anchors so the nav also works from sub-pages like /clients.
 export const nav = [
   { label: "Services", href: "/#services" },
+  { label: "AI Studio", href: "/#ai" },
   { label: "Technology", href: "/#technology" },
   { label: "Work", href: "/#work" },
   { label: "Clients", href: "/clients" },

@@ -35,7 +35,7 @@ export default function AIStudio() {
             <div className="ai-split-item">
               <span className="ai-split-pct mono accent">90%</span>
               <span className="ai-split-text">
-                <strong>AI handles it.</strong>{" "}
+                <strong>Stacknet handles it.</strong>{" "}
                 <span className="text-secondary">
                   The repetitive, rule-based work that eats your day.
                 </span>

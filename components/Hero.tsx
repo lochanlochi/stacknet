@@ -33,6 +33,17 @@ export default function Hero() {
             </p>
           </Reveal>
 
+          <Reveal delay={260}>
+            <a href="#ai" className="hero-ai">
+              <span className="hero-ai-tag mono">AI</span>
+              <span>
+                Products that make your work{" "}
+                <span className="accent">90% lighter</span>
+              </span>
+              <span className="arrow" aria-hidden="true">→</span>
+            </a>
+          </Reveal>
+
           <Reveal delay={300}>
             <div className="hero-actions">
               <a href="#contact" className="btn btn-primary">
