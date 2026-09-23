@@ -19,7 +19,7 @@ export default function Services() {
           />
           <Reveal delay={140} className="services-head-note">
             <p className="text-secondary">
-              Four disciplines, one team. We move between them without a handoff
+              Five disciplines, one team. We move between them without a handoff
               gap — the way good products are actually built.
             </p>
           </Reveal>

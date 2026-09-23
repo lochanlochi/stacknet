@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <a href="#top" aria-label="Stacknet.dev home">
+          <a href="/" aria-label="Stacknet.dev home">
             <Logo />
           </a>
           <span className="footer-tag mono text-muted">Built for the web.</span>

@@ -26,8 +26,9 @@ export default function Hero() {
 
           <Reveal delay={220}>
             <p className="hero-lead text-secondary">
-              Stacknet.dev turns ambitious ideas into fast, elegant and scalable
-              digital products — from first line of code to production.
+              Stacknet.dev turns ambitious ideas into edge-fast, pixel-perfect,
+              AI-ready digital products — engineered on the modern web, from
+              first commit to global launch.
             </p>
           </Reveal>
 

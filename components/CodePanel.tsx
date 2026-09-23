@@ -50,34 +50,35 @@ export default function CodePanel() {
             <i />
             <i />
           </span>
-          <span className="mono code-file">experience.ts</span>
+          <span className="mono code-file">stacknet.config.ts</span>
           <span className="mono code-status">
             <span className="dot" /> BUILD 0042
           </span>
         </div>
         <pre className="code-body mono">
           <code>
-            <span className="c-kw">const</span>{" "}
-            <span className="c-var">experience</span> = {"{"}
+            <span className="c-kw">export default</span>{" "}
+            <span className="c-fn">defineProduct</span>({"{"}
             {"\n"}
-            {"  "}design: <span className="c-str">&quot;precise&quot;</span>,
+            {"  "}render: <span className="c-str">&quot;edge&quot;</span>,
             {"\n"}
-            {"  "}frontend: <span className="c-str">&quot;fast&quot;</span>,
+            {"  "}firstPaint: <span className="c-str">&quot;&lt; 1s&quot;</span>,
             {"\n"}
-            {"  "}backend: <span className="c-str">&quot;scalable&quot;</span>,
+            {"  "}a11y: <span className="c-str">&quot;WCAG 2.2 AA&quot;</span>,
             {"\n"}
-            {"  "}shipping: <span className="c-bool">true</span>
+            {"  "}aiReady: <span className="c-bool">true</span>,
             {"\n"}
-            {"}"}
-            {"\n\n"}
-            <span className="c-var">stacknet</span>.
-            <span className="c-fn">build</span>(experience)
+            {"  "}scale: <span className="c-str">&quot;global&quot;</span>,
+            {"\n"}
+            {"  "}legacy: <span className="c-bool">false</span>
+            {"\n"}
+            {"}"})
           </code>
         </pre>
         <div className="code-panel-out mono">
-          <span className="c-ok">✓</span> compiled · 0 errors
+          <span className="c-ok">✓</span> typed · tested · 0 errors
           <br />
-          <span className="text-muted">→ deployed to production</span>
+          <span className="text-muted">→ live at the edge, worldwide</span>
         </div>
       </div>
     </div>

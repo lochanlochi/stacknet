@@ -18,8 +18,9 @@ export default function Intro() {
           </Reveal>
           <Reveal delay={120}>
             <p className="intro-support text-secondary">
-              We combine product thinking, design and engineering to create
-              digital experiences that are fast, intuitive and built to last.
+              Product thinking, design and engineering fused into one discipline —
+              so what we ship loads in a blink, reads like a conversation and
+              keeps performing long after launch day.
             </p>
           </Reveal>
         </div>

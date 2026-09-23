@@ -32,16 +32,16 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Stacknet.dev — Web Development Studio",
   description:
-    "Stacknet.dev builds fast, elegant and scalable websites, web applications and digital products.",
+    "Stacknet.dev builds edge-fast, AI-ready websites, web applications and digital products on modern and latest web technologies.",
   keywords: [
     "web development studio",
     "web applications",
     "SaaS development",
-    "frontend engineering",
-    "backend engineering",
-    "Next.js",
-    "React",
-    "TypeScript",
+    "modern web development",
+    "AI-ready websites",
+    "edge-rendered websites",
+    "high-performance websites",
+    "Core Web Vitals",
   ],
   authors: [{ name: "Stacknet.dev" }],
   creator: "Stacknet.dev",
@@ -51,14 +51,14 @@ export const metadata: Metadata = {
     url: SITE_URL,
     title: "Stacknet.dev — Web Development Studio",
     description:
-      "Stacknet.dev builds fast, elegant and scalable websites, web applications and digital products.",
+      "Stacknet.dev builds edge-fast, AI-ready websites, web applications and digital products on modern and latest web technologies.",
     siteName: "Stacknet.dev",
   },
   twitter: {
     card: "summary_large_image",
     title: "Stacknet.dev — Web Development Studio",
     description:
-      "Stacknet.dev builds fast, elegant and scalable websites, web applications and digital products.",
+      "Stacknet.dev builds edge-fast, AI-ready websites, web applications and digital products on modern and latest web technologies.",
   },
   robots: {
     index: true,
@@ -85,7 +85,7 @@ const jsonLd = {
   name: "Stacknet.dev",
   url: SITE_URL,
   description:
-    "Stacknet.dev builds fast, elegant and scalable websites, web applications and digital products.",
+    "Stacknet.dev builds edge-fast, AI-ready websites, web applications and digital products on modern and latest web technologies.",
   email: "hello@stacknet.dev",
   founder: founderEntity,
   founders: [founderEntity],

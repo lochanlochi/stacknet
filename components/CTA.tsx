@@ -28,8 +28,8 @@ export default function CTA() {
 
         <Reveal delay={160}>
           <p className="cta-lead text-secondary">
-            Tell us what you&apos;re building. We&apos;ll bring the technical
-            thinking, craft and momentum.
+            Tell us what you&apos;re building. We&apos;ll bring the architecture,
+            the craft and the momentum — you bring the ambition.
           </p>
         </Reveal>
 

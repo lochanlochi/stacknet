@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <header className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
       <div className="container nav-inner">
-        <a href="#top" className="nav-logo" aria-label="Stacknet.dev home">
+        <a href="/" className="nav-logo" aria-label="Stacknet.dev home">
           <Logo />
         </a>
 
@@ -38,7 +38,7 @@ export default function Navbar() {
         </nav>
 
         <div className="nav-actions">
-          <a href="#contact" className="btn btn-primary nav-cta">
+          <a href="/#contact" className="btn btn-primary nav-cta">
             Start a project <span className="arrow" aria-hidden="true">↗</span>
           </a>
           <button
@@ -70,7 +70,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="/#contact"
             className="btn btn-primary nav-mobile-cta"
             onClick={() => setOpen(false)}
           >
