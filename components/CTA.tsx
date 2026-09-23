@@ -1,4 +1,5 @@
 import Reveal from "./Reveal";
+import { contact } from "@/lib/data";
 
 export default function CTA() {
   return (
@@ -35,12 +36,16 @@ export default function CTA() {
 
         <Reveal delay={240}>
           <div className="cta-actions">
-            <a href="mailto:hello@stacknet.dev" className="btn btn-primary cta-mail">
-              hello@stacknet.dev{" "}
+            <a href={`mailto:${contact.email}`} className="btn btn-primary cta-mail">
+              {contact.email}{" "}
               <span className="arrow" aria-hidden="true">↗</span>
             </a>
-            <a href="mailto:hello@stacknet.dev" className="btn btn-secondary">
-              Start a conversation{" "}
+            <a
+              href={contact.phoneHref}
+              className="btn btn-secondary cta-mail"
+              aria-label={`Call ${contact.phone}`}
+            >
+              {contact.phone}{" "}
               <span className="arrow" aria-hidden="true">→</span>
             </a>
           </div>

@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Manrope, DM_Mono, Instrument_Serif } from "next/font/google";
-import { founder } from "@/lib/data";
+import { founder, contact } from "@/lib/data";
 import "./globals.css";
 import "./components.css";
 
@@ -87,7 +87,8 @@ const jsonLd = {
   description:
     "Stacknet.dev builds edge-fast, AI-ready websites, web applications and digital products on modern and latest web technologies.",
   logo: `${SITE_URL}/stacknet-logo.png`,
-  email: "hello@stacknet.dev",
+  email: contact.email,
+  telephone: "+91-8073919088",
   founder: founderEntity,
   founders: [founderEntity],
   employee: [founderEntity],

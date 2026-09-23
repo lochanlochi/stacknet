@@ -380,8 +380,15 @@ export const faqs: Faq[] = [
 
 export const founder = "Lochan SR";
 
+export const contact = {
+  email: "hey@stacknet.dev",
+  phone: "+91 8073919088",
+  phoneHref: "tel:+918073919088",
+};
+
 export const socials = [
   { label: "GitHub", href: "https://github.com/lochanlochi/stacknet" },
   { label: "LinkedIn", href: "#" },
-  { label: "Email", href: "mailto:hello@stacknet.dev" },
+  { label: "Email", href: `mailto:${contact.email}` },
+  { label: "Phone", href: contact.phoneHref },
 ];
