@@ -282,6 +282,30 @@ export interface Principle {
   description: string;
 }
 
+// AI Product Studio: what customers actually get, in their terms.
+export const aiPromises: Principle[] = [
+  {
+    title: "Shaped around your workflow",
+    description:
+      "We start with how your team really works — then fit the AI into the tools and steps you already use. No new habits to learn.",
+  },
+  {
+    title: "Speaks your business",
+    description:
+      "Grounded in your documents, data and processes, so answers sound like you — and your information stays yours.",
+  },
+  {
+    title: "Measured in hours won back",
+    description:
+      "We go after the most repetitive work first and track the time returned from week one. Hours saved, not flashy demos.",
+  },
+  {
+    title: "You stay in control",
+    description:
+      "Clear, reviewable results with a human in the loop wherever it matters. No black boxes, no surprises.",
+  },
+];
+
 export const principles: Principle[] = [
   {
     title: "Design and engineering, one mind",

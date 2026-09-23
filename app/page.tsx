@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Ticker from "@/components/Ticker";
 import TrustedBy from "@/components/TrustedBy";
 import Intro from "@/components/Intro";
+import AIStudio from "@/components/AIStudio";
 import Services from "@/components/Services";
 import Stack from "@/components/Stack";
 import Benchmarks from "@/components/Benchmarks";
@@ -27,6 +28,7 @@ export default function Home() {
         <Ticker />
         <TrustedBy />
         <Intro />
+        <AIStudio />
         <Services />
         <Stack />
         <Benchmarks />
