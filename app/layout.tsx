@@ -86,6 +86,7 @@ const jsonLd = {
   url: SITE_URL,
   description:
     "Stacknet.dev builds edge-fast, AI-ready websites, web applications and digital products on modern and latest web technologies.",
+  logo: `${SITE_URL}/stacknet-logo.png`,
   email: "hello@stacknet.dev",
   founder: founderEntity,
   founders: [founderEntity],

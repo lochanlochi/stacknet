@@ -23,15 +23,22 @@
 .logo {
   display: inline-flex;
   align-items: center;
-  gap: 0.55rem;
+  gap: 0.65rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
 }
 .logo-mark {
-  color: var(--accent);
-  font-size: 0.9rem;
-  font-weight: 500;
+  display: block;
+  height: 36px;
+  width: auto;
+  filter: drop-shadow(0 0 10px rgba(183, 255, 82, 0.22));
+  transition: transform var(--dur-slow) var(--ease),
+    filter var(--dur-mid) var(--ease);
+}
+a:hover > .logo .logo-mark {
+  transform: rotate(-8deg) scale(1.06);
+  filter: drop-shadow(0 0 16px rgba(183, 255, 82, 0.4));
 }
 .logo-word {
   color: var(--text);
