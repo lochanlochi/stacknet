@@ -384,6 +384,9 @@ export const contact = {
   email: "hey@stacknet.dev",
   phone: "+91 8073919088",
   phoneHref: "tel:+918073919088",
+  whatsappHref:
+    "https://wa.me/918073919088?text=" +
+    encodeURIComponent("Hi Stacknet, I'd like to discuss a project."),
 };
 
 export const socials = [
@@ -391,4 +394,5 @@ export const socials = [
   { label: "LinkedIn", href: "#" },
   { label: "Email", href: `mailto:${contact.email}` },
   { label: "Phone", href: contact.phoneHref },
+  { label: "WhatsApp", href: contact.whatsappHref },
 ];

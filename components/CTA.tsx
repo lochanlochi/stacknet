@@ -48,6 +48,16 @@ export default function CTA() {
               {contact.phone}{" "}
               <span className="arrow" aria-hidden="true">→</span>
             </a>
+            <a
+              href={contact.whatsappHref}
+              className="btn btn-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Chat on WhatsApp at ${contact.phone}`}
+            >
+              WhatsApp{" "}
+              <span className="arrow" aria-hidden="true">↗</span>
+            </a>
           </div>
         </Reveal>
 
