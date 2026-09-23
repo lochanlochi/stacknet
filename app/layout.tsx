@@ -30,11 +30,14 @@ const SITE_URL = "https://stacknet.dev";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Stacknet.dev — Web Development Studio",
+  title: "Stacknet.dev — Web Development & AI Product Studio",
   description:
-    "Stacknet.dev builds edge-fast, AI-ready websites, web applications and digital products on modern and latest web technologies.",
+    "Stacknet.dev is a web development and AI product studio building edge-fast, AI-ready websites, web applications and AI-powered digital products on modern and latest web technologies.",
   keywords: [
     "web development studio",
+    "AI product studio",
+    "AI product development",
+    "AI-powered applications",
     "web applications",
     "SaaS development",
     "modern web development",
@@ -49,16 +52,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: SITE_URL,
-    title: "Stacknet.dev — Web Development Studio",
+    title: "Stacknet.dev — Web Development & AI Product Studio",
     description:
-      "Stacknet.dev builds edge-fast, AI-ready websites, web applications and digital products on modern and latest web technologies.",
+      "Stacknet.dev is a web development and AI product studio building edge-fast, AI-ready websites, web applications and AI-powered digital products on modern and latest web technologies.",
     siteName: "Stacknet.dev",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Stacknet.dev — Web Development Studio",
+    title: "Stacknet.dev — Web Development & AI Product Studio",
     description:
-      "Stacknet.dev builds edge-fast, AI-ready websites, web applications and digital products on modern and latest web technologies.",
+      "Stacknet.dev is a web development and AI product studio building edge-fast, AI-ready websites, web applications and AI-powered digital products on modern and latest web technologies.",
   },
   robots: {
     index: true,
@@ -85,7 +88,7 @@ const jsonLd = {
   name: "Stacknet.dev",
   url: SITE_URL,
   description:
-    "Stacknet.dev builds edge-fast, AI-ready websites, web applications and digital products on modern and latest web technologies.",
+    "Stacknet.dev is a web development and AI product studio building edge-fast, AI-ready websites, web applications and AI-powered digital products on modern and latest web technologies.",
   logo: `${SITE_URL}/stacknet-logo.png`,
   email: contact.email,
   telephone: "+91-8073919088",

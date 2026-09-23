@@ -219,6 +219,10 @@ a:hover > .logo .logo-mark {
   display: inline-block;
   margin-bottom: clamp(1.25rem, 3vw, 2rem);
 }
+/* wrap only between the two halves, never mid-phrase */
+.hero-eyebrow > span {
+  white-space: nowrap;
+}
 .hero-title {
   margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
 }

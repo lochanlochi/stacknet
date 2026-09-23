@@ -1,7 +1,7 @@
 # stacknet.dev
 
-The official website for **Stacknet.dev** — a modern web development studio building
-websites, web applications, SaaS products, digital platforms and backend systems.
+The official website for **Stacknet.dev** — a modern web development and AI product studio building
+websites, web applications, AI-powered products, SaaS products, digital platforms and backend systems.
 
 > We build the web worth visiting.
 

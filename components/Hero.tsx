@@ -11,7 +11,8 @@ export default function Hero() {
         <div className="hero-copy">
           <Reveal>
             <span className="eyebrow hero-eyebrow">
-              Web Development Studio
+              <span>Web Development &amp;</span>{" "}
+              <span>AI Product Studio</span>
             </span>
           </Reveal>
 
