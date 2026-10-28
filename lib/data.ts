@@ -57,6 +57,23 @@ export const clients: Client[] = [
     headline: "Your dream home awaits.",
     hue: "38",
   },
+  {
+    name: "Assurance Infra",
+    url: "https://assuranceinfra.com/",
+    domain: "assuranceinfra.com",
+    industry: "Real estate & construction",
+    location: "Bengaluru, IN",
+    summary:
+      "A Bengaluru construction company delivering homes, villas, commercial and infrastructure projects on a fixed price. Their site makes that promise tangible — clear per-sq-ft packages, a five-stage process, delivered projects and a call-back form that lands straight on WhatsApp.",
+    scope: [
+      "Brand-led web design",
+      "Pricing packages",
+      "Project portfolio",
+      "WhatsApp lead capture",
+    ],
+    headline: "Bringing dreams to life.",
+    hue: "18",
+  },
 ];
 
 export const tickerItems = [
